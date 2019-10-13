@@ -1,10 +1,9 @@
 
-let weather=document.getElementById('weather');
 let span1=document.getElementById('span1');
 let span2=document.getElementById('span2');
 let span3=document.getElementById('span3');
 //localStorage.clear();
-if(localStorage.length==0){console.log("no");
+if(localStorage.length==0){//console.log("no");
 	myfetch();
 } 
 else  {
